@@ -1,5 +1,5 @@
 {
-    // 使用 IntelliSense 了解相关属性。 
+    // 使用 IntelliSense 了解相关属性。
     // 悬停以查看现有属性的描述。
     // 欲了解更多信息，请访问: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
@@ -7,15 +7,15 @@
         {
             "type": "lldb",
             "request": "launch",
-            "name": "Debug executable 'tongji_advanced_programming_forum_middleware'",
+            "name": "Debug executable 'tongji_advanced_programming_forum_microservice'",
             "cargo": {
                 "args": [
                     "build",
-                    "--bin=tongji_advanced_programming_forum_middleware",
-                    "--package=tongji_advanced_programming_forum_middleware"
+                    "--bin=tongji_advanced_programming_forum_microservice",
+                    "--package=tongji_advanced_programming_forum_microservice"
                 ],
                 "filter": {
-                    "name": "tongji_advanced_programming_forum_middleware",
+                    "name": "tongji_advanced_programming_forum_microservice",
                     "kind": "bin"
                 }
             },
@@ -25,16 +25,16 @@
         {
             "type": "lldb",
             "request": "launch",
-            "name": "Debug unit tests in executable 'tongji_advanced_programming_forum_middleware'",
+            "name": "Debug unit tests in executable 'tongji_advanced_programming_forum_microservice'",
             "cargo": {
                 "args": [
                     "test",
                     "--no-run",
-                    "--bin=tongji_advanced_programming_forum_middleware",
-                    "--package=tongji_advanced_programming_forum_middleware"
+                    "--bin=tongji_advanced_programming_forum_microservice",
+                    "--package=tongji_advanced_programming_forum_microservice"
                 ],
                 "filter": {
-                    "name": "tongji_advanced_programming_forum_middleware",
+                    "name": "tongji_advanced_programming_forum_microservice",
                     "kind": "bin"
                 }
             },
